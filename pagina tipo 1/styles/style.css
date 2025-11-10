@@ -1,0 +1,106 @@
+* {
+    font-family: 'Arial', sans-serif;
+    background-color: aquamarine;
+}
+
+.logo-principal {
+    width: 1000px;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.imagen-principal {
+    width: 1000px;
+    height: 600px;
+    display: block;
+    margin: 0px auto;
+    padding: 0px 700px 0px 0px;
+}
+
+.lista-libros {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subtitulo-libros {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.libros {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.adaptaciones {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.introduccion {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo-principal {
+    font-size: 60px;
+}
+
+.descripcion-primera {
+    font-size: 20px;
+}
+
+.subtitulo-pelis {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.descripcion-pelis {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.imagen-pelis {
+    width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0px 0px auto;
+}
+
+.subtitulo-cultural {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.descripcion-cultural {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.imagen-hogwarts {
+    width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0px 0px auto;
+}
+
+.subtitulo-personal {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.descripcion-personal {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.imagen-personal {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0px 0px auto;
+}
