@@ -1,7 +1,17 @@
 * {
     font-family: 'Arial', sans-serif;
-    background-color: aquamarine;
+    background-color: rgb(90, 20, 176);
 }
+
+.lista-de-navegacion {
+    color: aqua;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
 
 .logo-principal {
     width: 1000px;
@@ -31,6 +41,7 @@
 .libros {
     margin-top: 50px;
     margin-bottom: 50px;
+    color: aqua;
 }
 
 .adaptaciones {
@@ -38,12 +49,14 @@
     height: auto;
     display: block;
     margin-top: 50px;
+    color: aqua;
 }
 
 .introduccion {
     margin-top: 50px;
     margin-bottom: 50px;
     font-family: 'Times New Roman', Times, serif;
+    color: aqua;
 }
 
 .titulo-principal {
@@ -71,6 +84,9 @@
     margin: 0px 0px auto;
 }
 
+#cultural {
+    color: aqua;
+}
 .subtitulo-cultural {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
@@ -88,6 +104,9 @@
     margin: 0px 0px auto;
 }
 
+#opinion-personal {
+    color: aqua;
+}
 .subtitulo-personal {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
@@ -103,4 +122,8 @@
     height: auto;
     display: block;
     margin: 0px 0px auto;
+}
+
+#media-main {
+    color: aqua;
 }
