@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <title>HP Registro</title>
 </head>
 <body>
     <form action="https://formsubmit.co/agustinr284@gmail.com" method="POST">
+        <div id="g_id_onload"
+            data-client_id="TU_CLIENT_ID.apps.googleusercontent.com"
+            data-context="signin"
+            data-callback="handleCredentialResponse"
+            data-auto_prompt="false">
+        </div>
+
+        <div class="g_id_signin"
+            data-type="standard"
+            data-size="large"
+            data-theme="outline"
+            data-text="signin_with"
+            data-shape="rectangular"
+            data-logo_alignment="left">
+        </div>
+        <br>
         <input type="text" name placeholder="Nombre">
         <br>
         <input type="email" name="email" required placeholder="Email">
@@ -17,5 +34,13 @@
         <br>
         <button type="submit">Registrarse</button>
     </form>
+    <script>
+        function handleCredentialResponse(response) {
+            const token = response.credential;
+            console.log("Token JWT:", token);
+
+            // Decodifica o envía el token a tu backend para verificar al usuario.
+        }
+    </script>
 </body>
 </html>
