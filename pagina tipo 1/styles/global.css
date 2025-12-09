@@ -3,6 +3,95 @@
     background-color: rgb(90, 20, 176);
 }
 
+header {
+    background: linear-gradient(135deg, #1c1f24, #0f2d2d);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo-principal {
+    height: 60px;
+    filter: drop-shadow(0 0 4px rgba(0, 255, 200, 0.4));
+}
+
+/* NAV PRINCIPAL */
+.lista-de-navegacion ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.lista-de-navegacion a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #d7fff7; 
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* hover */
+.lista-de-navegacion a:hover {
+    color: aquamarine;
+    text-shadow: 0 0 6px aquamarine;
+}
+
+/* SUBMENÚ TIENDA */
+.lista-de-navegacion li {
+    position: relative;
+}
+
+.lista-de-navegacion h2 {
+    font-size: 17px;
+    margin: 0;
+    color: #f1ffe8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lista-de-navegacion h2:hover {
+    color: aquamarine;
+    text-shadow: 0 0 6px aquamarine;
+}
+
+/* Dropdown */
+.lista-de-navegacion li ul {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: #142020;
+    border-radius: 6px;
+    padding: 10px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    display: none;
+    flex-direction: column;
+    min-width: 130px;
+}
+
+.lista-de-navegacion li ul li {
+    padding: 8px 20px;
+}
+
+.lista-de-navegacion li ul li a {
+    color: #d0fff5;
+    display: block;
+}
+
+.lista-de-navegacion li:hover ul {
+    display: flex;
+}
+
+.lista-de-navegacion li ul li a:hover {
+    background-color: rgba(0, 255, 200, 0.1);
+}
+
+
 .lista-de-navegacion {
     color: aqua;
 }
@@ -26,6 +115,22 @@ a {
     display: block;
     margin: 0px auto;
     padding: 0px 700px 0px 0px;
+}
+
+.home {
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home h1 {
+    background: none;
+}
+
+.home p {
+    background: none;
 }
 
 .lista-libros {
